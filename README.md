@@ -1,2 +1,0 @@
-# koladev
-A personal website
