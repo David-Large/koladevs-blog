@@ -1,0 +1,10 @@
+{
+    "title": "Skills",
+    "skills":{
+        "Python": 90,
+        "Django": 85,
+        "JavaScript": 80,
+        "VueJs": 79,
+        "React": 78
+    }
+}
