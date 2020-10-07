@@ -12,7 +12,7 @@
             </div>
           </a>
           <small class="text-muted">{{ .Date.Format "Jan 2, 2006"}}</small>
-          <a href="{{ .Permalink }}"><h3 class="h4 font-weight-bold text-dark">{{ .Title }}</h3></a>
+          <a href="{{ .Permalink }}"><h3 class="h4 font-weight-bold text-dark">{{ .Params.featured_image }}</h3></a>
           
           <div>
             {{ range .Params.categories }}

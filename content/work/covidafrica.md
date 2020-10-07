@@ -1,10 +1,9 @@
 ---
-title: "Covidafrica"
-date: 2020-09-30T13:15:51+02:00
-draft: true
-featured_image: "work.jpg"
+title: "Covid Africa"
+date: 2020-02-02T07:00:00+01:00
+draft: false
+author: "Mangabo Kolawole"
+featured_image: "covidafrica.png"
 ---
 
-# Hello
-
-## I did this with this and this
+Covid Africa is designed to create this and that.
