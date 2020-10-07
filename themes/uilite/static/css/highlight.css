@@ -11,7 +11,7 @@ a:hover {
   position: fixed;
   left: 0px;
   top: 0px;
-  right: 552px;
+  right: auto;
   bottom: 0px;
   z-index: 1;
   width: 40%;
