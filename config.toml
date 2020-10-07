@@ -1,4 +1,4 @@
-baseURL = "https://koladev.xyz/"
+baseURL = "https://koladev.xyz"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Kolawole Mangabo"
 theme="uilite"
