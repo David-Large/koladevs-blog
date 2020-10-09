@@ -3,6 +3,8 @@ html {
   overflow-y: scroll;
 }
 
+body { overflow-x:hidden; }
+
 a:hover {
   text-decoration: none;
 }
