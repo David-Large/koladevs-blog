@@ -6,7 +6,7 @@ author: "Mangabo Kolawole"
 featured_image: "covidafrica.png"
 ---
 
-### (https://covidafrica.info/)
+#### https://covidafrica.info/
 The main objective is to be able to transform the data we collect into useful information whether for research or out of curiosity.
 The project is open-source and any suggestion or criticism is welcome. 
 I worked on this project using Python to collect and clean data, and then I made it available throught an API made with [Masonite FrameWork](https://docs.masoniteproject.com/). 
