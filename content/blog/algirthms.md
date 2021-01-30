@@ -1,9 +1,8 @@
----
-title: "Algorithms"
+﻿---
+title: "8 must-know sorting algorithms "
 date: 2021-01-30T15:28:02+01:00
-draft: true
+draft: false
 ---
-
 
 *In this post, I am going to show you common sorting algorithms and provide their implementation in python.*
 If you are a programmer or if you have already been interviewed for a job, then you surely know the importance of knowing and mastering algorithms in order to increase your coding level or have a chance to get hired.
@@ -15,8 +14,7 @@ And that's why you should practice a lot.
 As a wise man said on Quora:
 
 > Algorithms are made to be practiced, not learned.
-
-I think that you got the point, so let's dive in.
+> I think that you got the point, so let's dive in.
 
 ## Sorting Algorithms
 
@@ -34,6 +32,8 @@ Example :
 https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif)
 
  Bubble Sort from [WikiPedia](https://en.wikipedia.org/wiki/Bubble_sort)
+
+ **Code**
 
 ```python
     #Bubble Sort Algorithm
@@ -56,7 +56,7 @@ https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gi
         print(data)
 ```
 
-- The worst and average-case complexity of the Bubble Sort is О(n2), meaning that the data is in the opposite order we want to sort, or the elements are arbitrarily distributed in the list.
+- The worst and average-case complexity of the Bubble Sort is О(n2), meaning that the data is in opposite order we want to sort, or the elements are arbitrarily distributed in the list.
 - The best-case complexity is O(n). That's the case where the data is already sorted.
 
 Bubble sort is used when :
@@ -65,13 +65,16 @@ Bubble sort is used when :
 - the complexity doesn't matter.
 
 **Selection Sort**
-Selection Sort is an ameliorated version of Bubble Sort because of the performance. Even if they have the same worst-case performance, Selection Sort performs fewer swaps. 
-Selection sort works in one of two ways: It either looks for the smallest item in the list and places it in the front of the list (ensuring that the item is in its correct location) or looks for the largest item and places it in the back of the list. 
+Selection Sort is an ameliorated version of Bubble Sort because of the performance. Even if they have the same worst-case performance, Selection Sort performs less swaps. 
+Selection sort works in one of two ways: It either looks for the smallest item in the list and places it in the front of the list (ensuring that the item is in its correct location) or looks for the largest item and places it in the back of the list.
+
 **Example:**
 
 ![my alt text](https://res.cloudinary.com/practicaldev/image/fetch/s--OQMj34Rc--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://upload.wikimedia.org/wikipedia/commons/9/94/Selection-Sort-Animation.gif)
 
+
  Selection sort of animation. Red is the current min. Yellow is a sorted list. Blue is the current item. [Wikipedia](https://en.wikipedia.org/wiki/Selection_sort)
+
 **Code**
 
 ```python
@@ -97,17 +100,19 @@ Selection Sort has the same complexities as Bubble Sort.
 Selection Sort is used when:
 
 - Sorting small arrays
-- checking off all the elements is compulsory
+- checking of all the elements is compulsory
 - Less swapping is required
 
 **Insertion Sort**
-Insertion is a brute-force sorting algorithm but it does fewer comparisons than the Selection sort.
+Insertion is a brute-force sorting algorithm but it does fewer comparisons than Selection sort.
 Insertion Sort works by choosing an item and by ordering the directs neighbors whether they are greater/smaller than the chosen item. As the number of sorted items builds, the algorithm checks new items against the sorted items and inserts the new item into the right position in the list.
-Example :
+Exemple :
 
 ![Insertion Sort](https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif)
 
+
  Image from [Wikipedia](https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif)
+ 
 **Code:**
 
 ```python
@@ -139,12 +144,14 @@ Insertion Sort is used when :
 
 **QuickSort**
 QuickSort is an efficient sorting algorithm. It uses the divide-conquer approach to split the array into sub-arrays that is recursively called to sort the elements.
-Implement a QuickSort algorithm requires to choose a pivot, then split the array into two sub-arrays according to the pivot, then arrange them following if they are greater/smaller than the pivot. Then we sort the two sub-arrays and repeat the process again.
+Implement a QuickSort algorithm requires to choose a pivot, then split the array in two sub-arrays according to the pivot, then arrange them following if they are greater/smaller than the pivot. Then we sort the two sub-arrays and repeat the process again.
 Example :
 
 ![QuickSort](https://upload.wikimedia.org/wikipedia/commons/9/9c/Quicksort-example.gif)
 
+
  Image from [Wikipedia](https://en.wikipedia.org/wiki/Quicksort)
+
 **Code:**
 
 ```python
@@ -196,18 +203,21 @@ QuickSort is used when :
 
 ![](https://media.giphy.com/media/UfaSEmvHQtrEI/giphy.gif)
 
+
 A Mergesort works by applying the divide and conquer approach. The sort begins by breaking the dataset into individual pieces and sorting the pieces. It then merges the pieces in a manner that ensures that it has sorted the merged piece. 
-The sorting and merging continue until the entire dataset is again a single piece. 
+The sorting and merging continues until the entire dataset is again a single piece. 
 **Example:**
 
 ![Merge Sort](https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif)
 
- An example of a merge sort. First divide the list into the smallest unit (1 element), then compare each element with the adjacent list to sort and merge the two adjacent lists. Finally, all the elements are sorted and merged. [Wikipedia](https://en.wikipedia.org/wiki/Merge_sort)
+
+ An example of merge sort. First divide the list into the smallest unit (1 element), then compare each element with the adjacent list to sort and merge the two adjacent lists. Finally all the elements are sorted and merged. [Wikipedia](https://en.wikipedia.org/wiki/Merge_sort)
+
 **Code:**
 
 ```python
     #Merge Sort Algorithm
-
+    
     def mergeSort(data):
         """This function determines whether the list is broken
             into individual parts"""
@@ -278,8 +288,8 @@ The process of bucket sort can be view as a scatter-gather approach. The element
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Bucket_sort_2.svg/311px-Bucket_sort_2.svg.png)
 
-
 **Code:**
+
 ```python
     #Bucket Sort Algorithm
     
@@ -309,7 +319,7 @@ The process of bucket sort can be view as a scatter-gather approach. The element
         print(data)
 ```
 
-- Bucket Sort algorithm has the worst-case complexity of O(n2). It occurs when elements in the same range are put in the same bucket, resulting in more elements in some buckets than others. Also, it can be even worse when an inappropriate sorting algorithm is used to sort elements in the buckets.
+- Bucket Sort algorithm has worst-case complexity of O(n2). It occurs when elements in the same range are put in the same bucket, resulting in more elements in some buckets than others. Also, it can be even worse when an inappropriate sorting algorithm is used to sort elements in the buckets.
 - The best-case complexity is O(n+k). It occurs when the elements are uniformly distributed in the buckets with a nearly equal number of elements in each bucket. It can even be better if the array is already sorted.
 - The average-case complexity is O(n). It occurs when elements are randomly distributed in the array.
 
@@ -324,7 +334,9 @@ Shell Sort is a variation of Insertion Sort. With this algorithm, the array is s
 
 ![Shell Sort](https://thumbs.gfycat.com/MarriedImpassionedIaerismetalmark-size_restricted.gif)
 
+
  Gif from [GfyCat](https://thumbs.gfycat.com/MarriedImpassionedIaerismetalmark-mobile.mp4)
+
 **Code:**
 
 ```python
@@ -371,7 +383,9 @@ To make a heap sort algorithm, we must create a heap of the array first. When do
 
 ![Heap Sort](https://upload.wikimedia.org/wikipedia/commons/f/fe/Heap_sort_example.gif)
 
+
  Gif from [Wikipedia](https://en.wikipedia.org/wiki/Heapsort)
+
 **Code:**
 
 ```python
