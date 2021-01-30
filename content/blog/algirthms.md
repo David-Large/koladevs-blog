@@ -1,7 +1,9 @@
 ﻿---
-title: "8 must-know sorting algorithms "
+title: "8 must-know sorting algorithms"
 date: 2021-01-30T15:28:02+01:00
 draft: false
+author: "Mangabo Kolawole"
+featured_image: "algorithms.jpg"
 ---
 
 *In this post, I am going to show you common sorting algorithms and provide their implementation in python.*
