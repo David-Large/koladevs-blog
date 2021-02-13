@@ -61,7 +61,8 @@ Good. We can start creating the logic of the goal we want to achieve in this tut
 - ViewSet
 - And finally, configure routes.
 
-**Model**
+### Model
+
 The `Menu` model will only contain 5 fields.
 
 ```python
@@ -87,7 +88,8 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-**Serializer**
+### Serializer
+
 Serializer allows us to convert complex Django complex data structures such as `querysets` or model instances in Python native objects that can be easily converted JSON/XML format.
 Here, we’ll create a serializer to convert our data into JSON format.
 
@@ -102,7 +104,8 @@ class MenuSerializer(serializers.ModelSerializer):
         fields = ['id', 'name', 'description', 'price', 'created', 'updated']  
 ```
 
-**Viewsets**
+### Viewsets
+
 Viewsets here can be referred to in Django as Controllers if you are coming from another framework. 
 ViewSet is a concept developed by DRF which consists of grouping a set of views for a given model in a single Python class. This set of views corresponds to the predefined actions of CRUD type (Create, Read, Update, Delete), associated with HTTP methods. Each of these actions is a ViewSet instance method. Among these default actions, we find:
 
@@ -421,7 +424,8 @@ Once it’s done, let’s implement the `render()` method:
 
 ![](https://paper-attachments.dropbox.com/s_91B4E45CE57E19C0F15A00DA56BE11B919EA6BF487475EC7F668C42504558B3E_1613141850249_Screenshot_2021-02-12+React+App.png)
 
-**Add a menu**
+### Add a menu
+
 The `AddMenu.js` component has a Form to submit a new menu. It contains three fields :  `name`, `description` & `price` .
 
 ```javascript
@@ -556,7 +560,8 @@ And three methods :
         </div>
 ```
 
-**Update a Menu**
+### Update a Menu
+
 The component will be a little bit identical to `AddMenu` component, however, it will contain a get method to retrieve the current value of the object by making a `GET` request to the API with the `id` of the object.
 We use the `useHistory()` hook to pass the `id` to the `UpdateMenu` component and retrieve it with `useParams` hook.
 
