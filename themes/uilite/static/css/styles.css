@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .highlight {
-  background-color: #212529;
+  background-color: #272822;
   padding: 4px 8px;
   /*display: inline-block;*/
 }
