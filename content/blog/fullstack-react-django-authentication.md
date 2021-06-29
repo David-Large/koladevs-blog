@@ -3,7 +3,7 @@ title: "FullStack React & Django Authentication : Django REST ,TypeScript, Axios
 date: 2021-06-29T03:11:05+01:00
 draft: false
 author: "Mangabo Kolawole"
-featured_image: "djangoreact.png"
+featured_image: "kemauetddjar4x5vtq0w.webp"
 ---
 
 As a full-stack developer, understand how to build an authentication system with backend technology and manage the authentication flow with a frontend technology is crucial.
