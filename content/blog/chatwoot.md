@@ -1,9 +1,8 @@
 ---
-title: "Build a CRUD application with Django Rest and React"
+title: "The ultimate Open source alternative to manage customer engagement- Chatwoot is here! 💬"
 date: 2021-06-28T03:11:05+01:00
 draft: false
 author: "Mangabo Kolawole"
-featured_image: "djangoreact.png"
 ---
 
 
