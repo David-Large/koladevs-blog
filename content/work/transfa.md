@@ -36,6 +36,4 @@ Applications Features:
 <img src="https://koladev.xyz//images/work/8.jpg" width="200">
 <img src="https://koladev.xyz//images/work/9.jpg" width="200">
 <img src="https://koladev.xyz//images/work/10.jpg" width="200">
-<img src="https://koladev.xyz//images/work/11.jpg" width="200">
-<img src="https://koladev.xyz//images/work/12.jpg" width="200">
 </div>
