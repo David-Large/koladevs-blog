@@ -2,3 +2,8 @@ baseURL = "https://koladev.xyz/"
 languageCode = "en-us"
 title = "Kolawole Mangabo"
 theme="uilite"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
