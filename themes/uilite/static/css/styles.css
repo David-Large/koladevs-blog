@@ -94,11 +94,11 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
-.highlight {
+.highlight{
   border-radius: 5px;
-  background-color: #fff;
+  background-color: #272822;
   padding: 8px;
-  /*display: inline-block;*/
+  border: solid 10px #272822;
 }
 
 .form-control {
