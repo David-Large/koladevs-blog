@@ -1,5 +1,5 @@
 ---
-title: "Django ORM explained: selected_related and prefetch_related"
+title: " Optimize query size in Django "
 date: 2022-04-02T15:28:02+01:00
 draft: false
 author: "Mangabo Kolawole"
