@@ -50,7 +50,7 @@ class Computer(models.Model):
 
 We have the `Computer` table and the `Shoe` table with basically the same fields. A way to improve this and avoid DRY will be to create an `AbstractModel` class but well in the database that won't count that much.
 
-Let's create a class called `Product` that will have the same fields and a `product_type` field to know the type of product, `computer` or ``shoe`.
+Let's create a class called `Product` that will have the same fields and a `product_type` field to know the type of product, `computer` or `shoe`.
 
 ```python
 class Product(models.Model):
