@@ -1,6 +1,6 @@
 ---
 title: "Writing Custom Migrations in Django"
-date: 2022-04-3T10:28:02+01:00
+date: 2022-04-03T15:28:02+01:00
 draft: false
 author: "Mangabo Kolawole"
 featured_image: "migrations.png"
