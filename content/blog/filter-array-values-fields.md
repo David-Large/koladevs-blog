@@ -1,5 +1,5 @@
 ---
-title: "Writing Custom Migrations in Django"
+title: "Filter QuerySet with Array fields/values in Django"
 date: 2022-04-05T00:28:02+01:00
 draft: false
 author: "Mangabo Kolawole"
