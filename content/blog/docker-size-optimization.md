@@ -1,6 +1,6 @@
 ---
-title: "Django Tip: Use DecimalField for money"
-date: 2022-04-06T00:28:02+01:00
+title: "Optimize Docker Size Image with Python Environment"
+date: 2022-04-07T00:28:02+01:00
 draft: false
 author: "Mangabo Kolawole"
 featured_image: "dockersize.png"
