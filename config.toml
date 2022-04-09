@@ -16,10 +16,10 @@ paginate = 3
 
 [params]
   google_analytics_id = ""
-  twitter_handle = "@zerostaticio"
+  twitter_handle = "@koladev32"
 
   showAuthorOnHomepage = true
-  showAuthorOnPosts = false
+  showAuthorOnPosts = true
   showPostsOnHomepage = false
 
   addFrame = true
