@@ -1,5 +1,5 @@
 ---
-title: Clarity Finder, Software engineer & Writer
+title: Clarity Finder, Software Engineer & Writer
 ---
 
 Hello my Dear!👋
