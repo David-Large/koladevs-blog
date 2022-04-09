@@ -4,6 +4,7 @@ date: 2022-04-02T15:28:02+01:00
 draft: false
 author: "Mangabo Kolawole"
 featured_image: "optimization2.png"
+description: "Introduction to only() method in Django.🚀"
 ---
 
 ### Problem

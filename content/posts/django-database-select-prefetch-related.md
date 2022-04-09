@@ -4,7 +4,7 @@ date: 2022-04-01T15:28:02+01:00
 draft: false
 author: "Mangabo Kolawole"
 featured_image: "optimization.png"
-description: "selected_related() vs prefetch_related()"
+description: "selected_related() vs prefetch_related()🚀"
 ---
 
 Working with the Django ORM provides ways to query data from the database without writing SQL statements. However, using an ORM instead of SQL statements definitely results in performance drops but for most CRUD applications, it's insignificant until you are looking for ways to reduce useless database queries and make your Django application much faster.

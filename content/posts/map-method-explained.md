@@ -4,6 +4,7 @@ date: 2022-04-08T00:28:02+01:00
 draft: false
 author: "Mangabo Kolawole"
 featured_image: "map.png"
+description: "A function is a block of organized reusable code used to perform a single action.🚀"
 ---
 
 Do you know that it's possible to process **iterables** without a Loop? The `map` method is really useful when you need to perform the same operation on all items of an iterable (list, sets, etc).
