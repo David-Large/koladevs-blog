@@ -1,6 +1,21 @@
 ---
-title: You don't start out writing good stuff
-description: The hallway smelt of boiled cabbage and old rag mats.
+title: Clarity Finder, Software engineer & Writer
 ---
 
-The hallway smelt of boiled cabbage and old rag mats. At one end of it a coloured poster, too large for indoor display, had been tacked to the wall. It depicted simply an enormous face, more than a metre wide: the face of a man of about forty-five, with a heavy black moustache and ruggedly handsome features. Winston made for the stairs. It was no use trying the lift. 
+Hello my Dear!👋
+
+I'm **Kolawole Mangabo**, a Software Engineer working with **Django** and **React** and writer who enjoys building great quality products but also enjoys writing. You can find some of my works here and my content here.
+
+Other than that, here are some things I am working on actually.👇‍
+
+- Building a payment infrastructure for fintech on [Transfa](https://transfapp.com) 💵
+
+- Crafting a Django REST API course 🤯
+
+- Writing a book on Django and React 📚
+
+- Creating content on Twitter 🐦
+
+- Working as technical writer for [Remote.it](https://remote.it/) 
+
+- Getting to 80kg of muscle 💪
