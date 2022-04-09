@@ -4,6 +4,4 @@
 
 [build.environment]
   HUGO_VERSION = "0.80.0"
-  HUGO_THEME = "hugo-winston-theme"
   HUGO_ENV = "production"
-  HUGO_ENABLEGITINFO = "true"
