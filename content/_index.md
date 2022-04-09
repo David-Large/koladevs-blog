@@ -2,7 +2,7 @@
 title: Clarity Finder, Software Engineer & Writer
 ---
 
-Hello my Dear!👋
+Hello Dear!👋
 
 I'm **Kolawole Mangabo**, a Software Engineer working with **Django** and **React** and writer who enjoys building great quality products but also enjoys writing. You can find some of my works here and my content here.
 
@@ -16,6 +16,6 @@ Other than that, here are some things I am working on actually.👇‍
 
 - Creating content on Twitter 🐦
 
-- Working as technical writer for [Remote.it](https://remote.it/) 
+- Working as technical writer for [Remote.it](https://remote.it/) 👨‍💻
 
 - Getting to 80kg of muscle 💪
