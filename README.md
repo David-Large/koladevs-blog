@@ -1,2 +1,3 @@
-# koladev
-A personal website
+# https://koladev.xyz
+
+Personal Blog
